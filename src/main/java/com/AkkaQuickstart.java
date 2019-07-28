@@ -1,4 +1,4 @@
-package com.lightbend.akka.sample;
+package com;
 
 import java.util.Scanner;
 import java.util.LinkedList;
@@ -69,6 +69,8 @@ public class AkkaQuickstart {
           break;
         }
     } //while
-    System.out.println("END");
+    System.out.println("End Aquarium");
+    System.out.println("End Aquarium");
+
   }
 }

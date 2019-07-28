@@ -1,4 +1,4 @@
-package com.lightbend.akka.sample;
+package com;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,8 +1,7 @@
-package com.lightbend.akka.sample;
+package com;
 
 import akka.actor.AbstractActor;
 
-//#greeter-messages
 public class Fish extends AbstractActor {
     @Override
     public AbstractActor.Receive createReceive() {
