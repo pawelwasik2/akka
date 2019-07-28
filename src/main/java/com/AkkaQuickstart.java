@@ -70,7 +70,5 @@ public class AkkaQuickstart {
         }
     } //while
     System.out.println("End Aquarium");
-    System.out.println("End Aquarium");
-
   }
 }
