@@ -10,7 +10,7 @@ public class Fish extends AbstractActor {
                     if (s.equals("hi")) {
                         System.out.println(getSelf().path().name() + ": Hello, " + getSender().path().name() + ". Nice to meet you");
                         getSender().tell("meet", getSelf());
-                    } else if(s.equals("alone")) {
+                    }else if(s.equals("alone")) {
                         System.out.println("I'm " + getSelf().path().name() + " and I'm so alone");
                     }else if(s.equals("meet")) {
                         System.out.println(getSelf().path().name() + ": Nice to meet you too " + getSender().path().name());
@@ -21,7 +21,6 @@ public class Fish extends AbstractActor {
                         System.out.println(getSelf().path().name() + ": Good bye!");
                     }
                 })
-                .matchAny(o -> System.out.println("Sorry i dont speak your langauge"))
                 .build();
     }
 }
