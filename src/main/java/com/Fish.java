@@ -11,7 +11,7 @@ public class Fish extends AbstractActor {
                         System.out.println(getSelf().path().name() + ": Hello, " + getSender().path().name() + ". Nice to meet you");
                         getSender().tell("meet", getSelf());
                     }else if(s.equals("alone")) {
-                        System.out.println("I'm " + getSelf().path().name() + " and I'm so alone");
+                        System.out.println("Hi, I'm " + getSelf().path().name() + " and I'm so alone");
                     }else if(s.equals("meet")) {
                         System.out.println(getSelf().path().name() + ": Nice to meet you too " + getSender().path().name());
                     }else if(s.equals("bye")) {
